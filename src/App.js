@@ -1,14 +1,18 @@
 import React from "react";
-
-function App() {
+import Header from "./Header";
+import Sidebar from "./Sidebar";
+const App = () => {
   return (
     <div className="App">
-      <h1>React app</h1>
       {/* header */}
-      {/* sidebar */}
-      {/* react router -> main content */}
+      <Header />
+
+      <div className="app__body">
+        <Sidebar />
+        {/* react router -> main content */}
+      </div>
     </div>
   );
-}
+};
 
 export default App;
