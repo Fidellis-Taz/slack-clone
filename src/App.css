@@ -1,3 +1,10 @@
-body{
-  --slack-color:#3f0f40;
+body {
+  --slack-color: #3f0f40;
+  overflow: hidden;
+  /* this will display full sidebar  */
+}
+
+.app__body {
+  display: flex;
+  height: 100vh;
 }
